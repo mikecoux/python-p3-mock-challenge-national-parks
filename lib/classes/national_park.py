@@ -35,7 +35,6 @@ class NationalPark:
     
     def best_visitor(self):
         most_visits = 0
-        best_visitor = None
         for visitor in self._visitors:
             visit_count = self._visitors.count(visitor)
             if visit_count > most_visits:
